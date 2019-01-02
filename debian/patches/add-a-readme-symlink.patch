@@ -1,0 +1,27 @@
+From 24f70dafacc96a53fa5a3a3227c325e386363c31 Mon Sep 17 00:00:00 2001
+From: Sebastian Parschauer <s.parschauer@gmx.de>
+Date: Tue, 1 Jan 2019 17:46:43 +0100
+Subject: [PATCH] Add a README symlink to README.md
+
+For latest automake, a README file is mandatory.
+Found while developing the debian packaging for v0.4.
+
+Last-Update: 2019-01-01
+
+Patch-Name: add-a-readme-symlink.patch
+---
+ README | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 README
+
+diff --git a/README b/README
+new file mode 120000
+index 000000000000..42061c01a1c7
+--- /dev/null
++++ b/README
+@@ -0,0 +1 @@
++README.md
+\ No newline at end of file
+-- 
+2.16.4
+
