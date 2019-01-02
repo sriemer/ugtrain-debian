@@ -2,10 +2,10 @@ Source: ugtrain
 Section: utils
 Priority: optional
 Maintainer: Sebastian Parschauer <s.parschauer@gmx.de>
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper (>= 9),
                libtool,
                libglib2.0-dev
-Standards-Version: 4.3.0
+Standards-Version: 3.9.8
 Homepage: https://github.com/ugtrain/ugtrain
 Vcs-Git: https://salsa.debian.org/spars-guest/ugtrain.git
 Vcs-Browser: https://salsa.debian.org/spars-guest/ugtrain
