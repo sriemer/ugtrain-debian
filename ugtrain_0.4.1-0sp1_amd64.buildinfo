@@ -1,0 +1,227 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: ugtrain
+Binary: ugtrain
+Architecture: amd64 source
+Version: 0.4.1-0sp1
+Checksums-Md5:
+ 7f5187210b7080f20c6a28826acac08f 1880 ugtrain_0.4.1-0sp1.dsc
+ 99bfa4be70119009d647f4f85336ea7b 1208892 ugtrain-dbgsym_0.4.1-0sp1_amd64.deb
+ 1d395e77e305ffc8e766b67a3a16214c 137560 ugtrain_0.4.1-0sp1_amd64.deb
+Checksums-Sha1:
+ 601aa3f9874bbcddbfa5f6c20cc0ad96e20afc74 1880 ugtrain_0.4.1-0sp1.dsc
+ 44603c65eed46b788febc7c36d78ee19ceedab7a 1208892 ugtrain-dbgsym_0.4.1-0sp1_amd64.deb
+ 0bc7252e1c1da7be84200dccf6d43ff8d25cee9b 137560 ugtrain_0.4.1-0sp1_amd64.deb
+Checksums-Sha256:
+ 8c9b56cf82cfd658618c6b4ba7405c7b2dc3fac544e1e7cdb83cdfed8dc902ce 1880 ugtrain_0.4.1-0sp1.dsc
+ e8263ff2af2ca34b51c21317810d59980268aeb301534a829e2d5b402f54c6b7 1208892 ugtrain-dbgsym_0.4.1-0sp1_amd64.deb
+ 1ad3551d9e5ef508e2a80b4e65bbec260539683bc881cb6b3de068579c530665 137560 ugtrain_0.4.1-0sp1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 04 Jan 2019 14:10:25 +0000
+Build-Path: /build/ugtrain-3lxKm8/ugtrain-0.4.1
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-9),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-11),
+ binutils-common (= 2.31.1-11),
+ binutils-x86-64-linux-gnu (= 2.31.1-11),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.33-0.2),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-5 (= 5.5.0-12),
+ cpp-8 (= 8.2.0-13),
+ dash (= 0.5.10.2-4),
+ debconf (= 1.5.69),
+ debhelper (= 12),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.0.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-3),
+ fdisk (= 2.33-0.2),
+ file (= 1:5.34-2),
+ findutils (= 4.6.0+git+20181018-1),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-13),
+ gcc (= 4:8.2.0-2),
+ gcc-5 (= 5.5.0-12),
+ gcc-5-base (= 5.5.0-12),
+ gcc-7-base (= 7.4.0-2),
+ gcc-8 (= 8.2.0-13),
+ gcc-8-base (= 8.2.0-13),
+ gettext (= 0.19.8.1-9),
+ gettext-base (= 0.19.8.1-9),
+ grep (= 3.1-3),
+ groff-base (= 1.22.4-1),
+ gzip (= 1.9-2.1),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56+nmu1),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan2 (= 5.5.0-12),
+ libasan5 (= 8.2.0-13),
+ libatomic1 (= 8.2.0-13),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-2),
+ libaudit1 (= 1:2.8.4-2),
+ libbinutils (= 2.31.1-11),
+ libblkid1 (= 2.33-0.2),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libc-bin (= 2.28-4),
+ libc-dev-bin (= 2.28-4),
+ libc6 (= 2.28-4),
+ libc6-dev (= 2.28-4),
+ libcap-ng0 (= 0.7.9-1+b1),
+ libcc1-0 (= 8.2.0-13),
+ libcilkrts5 (= 7.4.0-2),
+ libcroco3 (= 0.6.12-3),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.246),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.175-2),
+ libexpat1 (= 2.2.6-1),
+ libfdisk1 (= 2.33-0.2),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 1.0.0-1),
+ libgcc-5-dev (= 5.5.0-12),
+ libgcc-8-dev (= 8.2.0-13),
+ libgcc1 (= 1:8.2.0-13),
+ libgcrypt20 (= 1.8.4-4),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.1-2),
+ libglib2.0-bin (= 2.58.1-2),
+ libglib2.0-data (= 2.58.1-2),
+ libglib2.0-dev (= 2.58.1-2),
+ libglib2.0-dev-bin (= 2.58.1-2),
+ libgmp10 (= 2:6.1.2+dfsg-4),
+ libgomp1 (= 8.2.0-13),
+ libgpg-error0 (= 1.33-3),
+ libicu63 (= 63.1-5),
+ libisl15 (= 0.18-4),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-13),
+ liblsan0 (= 8.2.0-13),
+ liblz4-1 (= 1.8.2-1),
+ liblzma5 (= 5.2.2-1.3),
+ libmagic-mgc (= 1:5.34-2),
+ libmagic1 (= 1:5.34-2),
+ libmount1 (= 2.33-0.2),
+ libmpc3 (= 1.1.0-1),
+ libmpdec2 (= 2.4.2-2),
+ libmpfr6 (= 4.0.1-2),
+ libmpx0 (= 5.5.0-12),
+ libmpx2 (= 8.2.0-13),
+ libncurses6 (= 6.1+20181013-1),
+ libncursesw6 (= 6.1+20181013-1),
+ libpam-modules (= 1.1.8-3.8),
+ libpam-modules-bin (= 1.1.8-3.8),
+ libpam-runtime (= 1.1.8-3.8),
+ libpam0g (= 1.1.8-3.8),
+ libpcre16-3 (= 2:8.39-11),
+ libpcre3 (= 2:8.39-11),
+ libpcre3-dev (= 2:8.39-11),
+ libpcre32-3 (= 2:8.39-11),
+ libpcrecpp0v5 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-3),
+ libpipeline1 (= 1.5.0-2),
+ libpython3-stdlib (= 3.7.1-3),
+ libpython3.7-minimal (= 3.7.2-1),
+ libpython3.7-stdlib (= 3.7.2-1),
+ libquadmath0 (= 8.2.0-13),
+ libreadline7 (= 7.0-5),
+ libseccomp2 (= 2.3.3-3),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.33-0.2),
+ libsqlite3-0 (= 3.26.0+fossilbc891ac6b-1),
+ libssl1.1 (= 1.1.1a-1),
+ libstdc++-8-dev (= 8.2.0-13),
+ libstdc++6 (= 8.2.0-13),
+ libsystemd0 (= 240-2),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-6),
+ libtsan0 (= 8.2.0-13),
+ libubsan0 (= 7.4.0-2),
+ libubsan1 (= 8.2.0-13),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 240-2),
+ libunistring2 (= 0.9.10-1),
+ libuuid1 (= 2.33-0.2),
+ libxml2 (= 2.9.4+dfsg1-7+b3),
+ linux-libc-dev (= 4.19.13-1),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.4-3),
+ mawk (= 1.3.3-17+b3),
+ mime-support (= 3.61),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-3),
+ perl-base (= 5.28.1-3),
+ perl-modules-5.28 (= 5.28.1-3),
+ pkg-config (= 0.29-4+b1),
+ po-debconf (= 1.0.21),
+ python3 (= 3.7.1-3),
+ python3-distutils (= 3.7.2-1),
+ python3-lib2to3 (= 3.7.2-1),
+ python3-minimal (= 3.7.1-3),
+ python3.7 (= 3.7.2-1),
+ python3.7-minimal (= 3.7.2-1),
+ readline-common (= 7.0-5),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.93-2),
+ tar (= 1.30+dfsg-3),
+ util-linux (= 2.33-0.2),
+ xz-utils (= 5.2.2-1.3),
+ zlib1g (= 1:1.2.11.dfsg-1),
+ zlib1g-dev (= 1:1.2.11.dfsg-1)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.UTF-8"
+ LC_ADDRESS="de_DE.UTF-8"
+ LC_ALL="C.UTF-8"
+ LC_IDENTIFICATION="de_DE.UTF-8"
+ LC_MEASUREMENT="de_DE.UTF-8"
+ LC_MONETARY="de_DE.UTF-8"
+ LC_NAME="de_DE.UTF-8"
+ LC_NUMERIC="de_DE.UTF-8"
+ LC_PAPER="de_DE.UTF-8"
+ LC_TELEPHONE="de_DE.UTF-8"
+ LC_TIME="de_DE.UTF-8"
+ SOURCE_DATE_EPOCH="1546591801"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE9XhRjchJA9ovPDUW2QA8foSSdWUFAlwvaXAACgkQ2QA8foSS
+dWVa7g//VRTWoC0ZHg15H6WFL7j6pH5jEQ/vXt8sRCUsDCU3FoRu/RYyxEvDgDJT
+TWDegNaBoja8W2fpCfPfahj0A76X8xoPIHwlYkG0uIoMd+5Zv4WrvDsQJcrBrrFS
+WWyIsZQOh4PbbzM8MSEiWb3C/ZLmFpFWcgdsPdIfl+5u9QkkMtoHc3pUVNdsFnbL
+ffHe91wX2lWub6jsKiwLedrxkIBSUv7T21wpA4y9chWpV0kfXJhdEgCqaCbpvkay
+g7gOylsjD1BQdBg5P1VbcIbFLFGBgrNaygoSQGlU55Yq3+y1aRbQDl7HAbenOSQR
+bK1jf4ctEUxpoKJXWkYXcYq3vSE9zLffarmgnK+jGY2HmzbEAw4GNMeZJysyFXE1
+dRD6gv4D4t8EhIjXrO8XtOlujhJuX6HsSi3cBFKXH6H82fi7286Td4QgUvPMK1hf
+hNgq2RxZPqVkMAFReouwW9r9HsYd+zdFkQK+t6zAJu9PqcspBuxxxh1O7XGfDOO9
+hZsHELXEeX9zjWVl3j9liPxvjBB64D09mot/jQ5dOxUdQq4nVJnyAtXA+Bh2d1Me
+Ctr+8CnvGme97H0bJmyuszSRYJYNR3QMgQK0o+uE7kal/D1jkfkUZT2Qvtj+2oWs
+i7HdWLhsjcatmkCXunJUCnVbZ8towHNwQcextjCmAnDUj7OSoyg=
+=fi5C
+-----END PGP SIGNATURE-----

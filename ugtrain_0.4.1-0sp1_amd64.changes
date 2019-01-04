@@ -1,0 +1,61 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 04 Jan 2019 09:50:01 +0100
+Source: ugtrain
+Binary: ugtrain
+Architecture: source amd64
+Version: 0.4.1-0sp1
+Distribution: unstable
+Urgency: low
+Maintainer: Sebastian Parschauer <s.parschauer@gmx.de>
+Changed-By: Sebastian Parschauer <s.parschauer@gmx.de>
+Description:
+ ugtrain    - Universal elite game trainer for the command line
+Changes:
+ ugtrain (0.4.1-0sp1) unstable; urgency=low
+ .
+   * update to 0.4.1
+     + Add a README symlink to README.md (for latest automake)
+     + ugsimfind: Fix a spelling issue (make Lintian happier)
+     + options: --version: Drop __DATE__ and __TIME__ (reproducible builds)
+   * remove add-a-readme-symlink.patch
+Checksums-Sha1:
+ 601aa3f9874bbcddbfa5f6c20cc0ad96e20afc74 1880 ugtrain_0.4.1-0sp1.dsc
+ d6ee97b596d7b263f86a2984968037569fb057ca 693167 ugtrain_0.4.1.orig.tar.gz
+ 8d6a3b91d9fb075ce8fb3144a067a36f8cb844d6 2652 ugtrain_0.4.1-0sp1.debian.tar.xz
+ 44603c65eed46b788febc7c36d78ee19ceedab7a 1208892 ugtrain-dbgsym_0.4.1-0sp1_amd64.deb
+ fc34ab2a7a590a7912b6b8076f8770cda061736a 6776 ugtrain_0.4.1-0sp1_amd64.buildinfo
+ 0bc7252e1c1da7be84200dccf6d43ff8d25cee9b 137560 ugtrain_0.4.1-0sp1_amd64.deb
+Checksums-Sha256:
+ 8c9b56cf82cfd658618c6b4ba7405c7b2dc3fac544e1e7cdb83cdfed8dc902ce 1880 ugtrain_0.4.1-0sp1.dsc
+ f44e357766c60843bce906e2a975edf9607f8505023945e4e67082ed8b0c6f36 693167 ugtrain_0.4.1.orig.tar.gz
+ d708ea0abde2cc1157346c465f304c8261a2ee7811c3a4dc073410ebc729d499 2652 ugtrain_0.4.1-0sp1.debian.tar.xz
+ e8263ff2af2ca34b51c21317810d59980268aeb301534a829e2d5b402f54c6b7 1208892 ugtrain-dbgsym_0.4.1-0sp1_amd64.deb
+ 41333b31ace89e14d3a09b1154a0628892f45d2ab30494d908c3ec9a37a840e2 6776 ugtrain_0.4.1-0sp1_amd64.buildinfo
+ 1ad3551d9e5ef508e2a80b4e65bbec260539683bc881cb6b3de068579c530665 137560 ugtrain_0.4.1-0sp1_amd64.deb
+Files:
+ 7f5187210b7080f20c6a28826acac08f 1880 utils optional ugtrain_0.4.1-0sp1.dsc
+ cb13100a73fd591827ea5e977b758c3d 693167 utils optional ugtrain_0.4.1.orig.tar.gz
+ 9ebbdee3f70fcc37702f646609a90d2f 2652 utils optional ugtrain_0.4.1-0sp1.debian.tar.xz
+ 99bfa4be70119009d647f4f85336ea7b 1208892 debug optional ugtrain-dbgsym_0.4.1-0sp1_amd64.deb
+ 2f81dccd417cff4fcd2ecbd659331e30 6776 utils optional ugtrain_0.4.1-0sp1_amd64.buildinfo
+ 1d395e77e305ffc8e766b67a3a16214c 137560 utils optional ugtrain_0.4.1-0sp1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE9XhRjchJA9ovPDUW2QA8foSSdWUFAlwvaXEACgkQ2QA8foSS
+dWVwMg//c9ioazLNoHhAgtdPY4a1xUyZfl5gOlSaZE5OAHvFNJCdRD4Ny9N9lBsx
+1VVEajqfhHoGmvSKirAYspBgdFV0rMsXaqr1vj7J/IwH1WE0QVyj9NSJMuJuw3gb
+sp8c54c90J+JY5n2KNUIuRqMcdoY3Lo14LGStYwUxSWC4uIW28ayRJwAZk2e3OgA
+2bYICMdVg9LzF3sXoXgB8qAcsR0+tWDLFV1g6TqPZ389d4htg7yDDp2Pl+SIOQ/a
+2/4hrfLkv9O4T1Ca7Wgrv6TDWcaFpoI3pbebriFpeVJL1c8XjyJ262ou0DsD1hWK
+HXap9jlmjKSPP02jCXC/QDxot+vodCW72CtPAQczklMG9dOmorjaElqw8cMeoXiD
+fXk4s6WIABPBj1oL4h3sQlzA+rKR7LukNaZ+gRNUNIQdKHWgERg+2sz8Spk5rVq6
+CPscWkvG0Ov/yYpkrodB4vohh5rN/Xr+JTtGP5S23spCAMpzqY9iQHSrpvDI0X+p
+iZX/SWlODtReMWUF4998IfEFSEiChkwHp+wJlqwlb2EdG6IF+q6RQUrM4ZfPiw53
+y57+/GaJ5Qay0PbG7wggPJf64wHSVIdIGc/ZbKwKSQC4pCTpl/GWSmx3vhSioiNk
+sK3kbX5MT5HFSY5luvpa3XJsgy4s2GZY+iVsvqFelSJOP6x2Lbo=
+=1HMI
+-----END PGP SIGNATURE-----
