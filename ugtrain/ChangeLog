@@ -1,0 +1,88 @@
+0.4 (simplification release, 2018-12-30)
+* implemented dumping of memory maps and backup files for everything
+* implemented hooking of _Znwm() and _Znwj()
+* dropped stack offset adaptation (too complex, little benefit)
+* made -D|--discover argument optional (stage 2/4 assumption)
+* implemented pointer following support from static memory
+* processing checks for pointers now
+* implemented heap pointer checks
+* added tool 'ugptrfind' to find heap pointers and C++ vectors in dumps
+* added hex value support and modified wish value from address syntax
+* several security fixes to make Coverity Scan happy
+* several fixes to support spaces better
+* several smaller bugfixes and optimizations
+* enhanced error handling
+* implemented a wish value per memory object for 'min' and 'max'
+* implemented stack value support
+* implemented pointer to C/C++ string watching support
+* made value-from-reference reliable
+* added address-from-reference support ('addr' keyword)
+* added special 'this' config address check keyword support
+* implemented caching of memory values to avoid duplicate target r/w
+* implemented /proc/$pid/mem support with 2K chunks r/w
+* converted the options and some strings to C++
+* dropped debian packaging (to be split from upstream code)
+* implemented PIC support for static memory
+* now using "[ugt] " prefix for ugtrain output
+* implemented freeing of all memory at exit to use Valgrind leak detection
+* implemented Travis-CI and Coverity Scan integration
+* now printing a config template during discovery
+* reworked documentation to use GitHub Markdown
+* new configs: dangerdeep, endless-sky, pointer following, gnome-mines, ...
+* enhanced several configs and their adaptation
+* dropped 32 bit x86 configs (too little benefit)
+
+0.3.0 (dynmem PIC release, 2016-01-01)
+* attaching to the most recently called game instance now
+* always running the game in a shell now to support spaces in paths
+* resetting the terminal if output fails
+* important stability improvements
+* enhanced error handling
+* delaying malloc() processing, checking for free()s when attached
+* libmemhack config now stored on the heap with growing
+* implemented ARM support tested on MeeGo 1.2 harmattan and Raspberry Pi
+* implemented Debian packaging for MeeGo and PCs
+* implemented support for growing memory objects
+* implemented support for memory allocations from within a library (PIC)
+* implemented single-line macro support
+* implemented bash completion for options and config files
+* backups of dump files to compare two states
+* several simplifications to improve usability a bit
+* adapt mem_size, game_binpath and proc_name
+* conversion of documentation to Markdown
+* improvements in documentation (e.g. added images)
+* many more configs (most of them without adaptation)
+* anti-abuse implementation
+* license change to GPLv3
+
+0.2.0 (Dietmar release, 2014-08-01)
+* several autotools improvements
+* getting the game PID with 'pidof -s'
+* running the game ourselves support (option '-P')
+* added game call, game path, game binary path support
+* removed libgcheater dependency
+* handling ptrace errors gracefully
+* detection if the game is running independent from ptrace
+* added float support
+* added dynamic wish value support (min, max, from addr, ...)
+* added dynamic memory support for Linux (hooking malloc, calloc, free)
+* implemented dynmem discovery, object dump and adaptation
+* implemented multiple object cheating support
+* added Chromium B.S.U. and Warzone 2100 examples
+* added Cube 2: Sauerbraten example (experimental)
+* integrated 'scanmem' into discovery run
+* added hacks so that scanmem and ptrace don't require root
+* added logo, drawings, tools and more doc
+* added pointer following support
+* added 'or' and 'equals' checks support
+* faster reaction on user input (sleep_sec_unless_input())
+* position-independent executable (PIE) support
+* experimental GLIB (e.g. g_malloc) support
+
+0.1.0 (basic release, 2012-06-01)
+* implemented compilation by autotools
+* config parsing implemented
+* lookup PID by process name implemented
+* freezing of static memory values supported
+* universal memory checks supported
+* nonblocking getch for activation toggling by key press

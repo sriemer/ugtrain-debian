@@ -1,0 +1,63 @@
+This tool is still under heavy development.
+There is still a lot of work to do. We appreciate any help we can get.
+
+Autotools:
++ create and include config.in and config.h
+
+Config files:
++ make search paths for config files configurable
+
+Options:
++ support common linux options (-V, -v, -q, ...)
++ support option to enable external control
+
+External control (using ugtrain as backend):
++ support config from stdin or command line
+
+Multi-arch support:
++ support more CPU architectures than x86, x86_64 and ARM
+
+Multi-platform support:
++ support Windows as well
++ write getch() functions for Windows
++ add Windows support for memory changing (OpenProcess, Read/WriteProcessMemory)
++ support MinGW compilation
++ implement arbitrary command execution helpers for Windows
++ add dyn. mem. support for Windows (Inline Hooking)
++ add dyn. mem. support for WINE (Inline Hooking)
+
+Trainer:
++ support PIC in adaptation (discovery and hacking work already)
++ enhance support for growing memory objects (adaptation, not only realloc(), ...)
++ add keys to disable all configured values and to enable all of them
+    (we can only toggle values so far)
++ provide a key for getting help
++ provide a help text for all possible keys
++ support external control (start/stop freezing values)
+
+Testing:
++ implement (semi-)automatic testing with live-images and (3D enabled) VMs
++ make use of "make check" and synthetic tests
+
+Demoing:
++ record games together with ugtrain to provide a set of tutorial videos
++ make ugtrain simpler and better usable
+
+Documentation:
++ create man pages
++ implement an interactive tutorial tool "ugtutor" to use ugtrain step by step
++ let ugtutor detect installed games known to be working with ugtrain configs
+
+Other:
++ develop global config handling (/etc/ugtrain.conf, e.g. set preloading method)
++ create much more ugtrain configs for FOSS games
++ record more videos of ugtrain cheating at FOSS games and upload them to YouTube
++ further rework the ELF file growing algorihm in "patchelf".
++ analyze "Cheat Engine" (source code) for Windows stuff
+
+Roadmap:
+0.4.0: Simplification, better pointer following, stack + statmem PIC, fixes
+1.0.0: Full Linux support with a lot of configs for FOSS games
+2.0.0: Full GUI frontend support
+3.0.0: Windows support
+4.0.0: WINE support
