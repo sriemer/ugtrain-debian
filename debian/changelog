@@ -1,4 +1,4 @@
-ugtrain (0.4.1-0sp1) unstable; urgency=low
+ugtrain (0.4.1-0sp1.2) xenial; urgency=low
 
   * update to 0.4.1
     + Add a README symlink to README.md (for latest automake)
@@ -8,13 +8,13 @@ ugtrain (0.4.1-0sp1) unstable; urgency=low
 
  -- Sebastian Parschauer <s.parschauer@gmx.de>  Fri, 04 Jan 2019 09:50:01 +0100
 
-ugtrain (0.4-0sp2) unstable; urgency=low
+ugtrain (0.4-0sp2) xenial; urgency=low
 
   * debian: add autoconf and automake depends for Ubuntu
 
  -- Sebastian Parschauer <s.parschauer@gmx.de>  Wed, 02 Jan 2019 23:44:26 +0100
 
-ugtrain (0.4-0sp1) unstable; urgency=low
+ugtrain (0.4-0sp1) xenial; urgency=low
 
   * initial packaging of 0.4
   * add add-a-readme-symlink.patch
