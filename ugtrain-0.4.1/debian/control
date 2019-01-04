@@ -1,0 +1,22 @@
+Source: ugtrain
+Section: utils
+Priority: optional
+Maintainer: Sebastian Parschauer <s.parschauer@gmx.de>
+Build-Depends: autoconf, automake, debhelper (>= 9), libglib2.0-dev, libtool
+Standards-Version: 3.9.8
+Homepage: https://github.com/ugtrain/ugtrain
+Vcs-Git: https://salsa.debian.org/spars-guest/ugtrain.git
+Vcs-Browser: https://salsa.debian.org/spars-guest/ugtrain
+
+Package: ugtrain
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: binutils, scanmem
+Description: Universal elite game trainer for the command line
+ The ugtrain is an advanced free and universal game trainer for the command
+ line under GPLv3 license. The dynamic memory support sets it apart. An
+ integrated preloader, a memory discovery, and a memory hacking library are
+ included for this. The ugtrain uses one simple config file per game which
+ can be exchanged with others. Examples for games which allow cheating are
+ included. These also come with automatic adaptation for dynamic memory so
+ that you can use them right away on your system after executing it.

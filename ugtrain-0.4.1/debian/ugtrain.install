@@ -1,0 +1,6 @@
+usr/bin/ugptrfind
+usr/bin/ugsimfind
+usr/bin/ugtrain
+usr/lib/*/libmemdisc*.so*
+usr/lib/*/libmemhack*.so*
+usr/share/bash-completion/completions/ugtrain
