@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 04 Jan 2019 09:50:01 +0100
+Source: ugtrain
+Binary: ugtrain
+Architecture: source
+Version: 0.4.1-0sp1
+Distribution: unstable
+Urgency: low
+Maintainer: Sebastian Parschauer <s.parschauer@gmx.de>
+Changed-By: Sebastian Parschauer <s.parschauer@gmx.de>
+Description:
+ ugtrain    - Universal elite game trainer for the command line
+Changes:
+ ugtrain (0.4.1-0sp1) unstable; urgency=low
+ .
+   * update to 0.4.1
+     + Add a README symlink to README.md (for latest automake)
+     + ugsimfind: Fix a spelling issue (make Lintian happier)
+     + options: --version: Drop __DATE__ and __TIME__ (reproducible builds)
+   * remove add-a-readme-symlink.patch
+Checksums-Sha1:
+ 5f2128ae382985b882dbf5372af0b14c5c523758 1909 ugtrain_0.4.1-0sp1.dsc
+ d6ee97b596d7b263f86a2984968037569fb057ca 693167 ugtrain_0.4.1.orig.tar.gz
+ 8d6a3b91d9fb075ce8fb3144a067a36f8cb844d6 2652 ugtrain_0.4.1-0sp1.debian.tar.xz
+ f108b49d0f938ce8d0c4b808ac76b26692f36bee 7915 ugtrain_0.4.1-0sp1_source.buildinfo
+Checksums-Sha256:
+ ddae6b37bbd1c7acf76ce8a974d44afb4ef1219b845b799917d92d70d76c9c5e 1909 ugtrain_0.4.1-0sp1.dsc
+ f44e357766c60843bce906e2a975edf9607f8505023945e4e67082ed8b0c6f36 693167 ugtrain_0.4.1.orig.tar.gz
+ d708ea0abde2cc1157346c465f304c8261a2ee7811c3a4dc073410ebc729d499 2652 ugtrain_0.4.1-0sp1.debian.tar.xz
+ 5485e9b528b95d6141c2838cb03d26fb2de1d9a50a01f8655127e24cf47936c4 7915 ugtrain_0.4.1-0sp1_source.buildinfo
+Files:
+ 02a35777c64a8f14fb5aab17a2e658b4 1909 utils optional ugtrain_0.4.1-0sp1.dsc
+ cb13100a73fd591827ea5e977b758c3d 693167 utils optional ugtrain_0.4.1.orig.tar.gz
+ 9ebbdee3f70fcc37702f646609a90d2f 2652 utils optional ugtrain_0.4.1-0sp1.debian.tar.xz
+ 8643bd2697d673d84f4bb3b066328ae7 7915 utils optional ugtrain_0.4.1-0sp1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEE9XhRjchJA9ovPDUW2QA8foSSdWUFAlwvZ/gUHHMucGFyc2No
+YXVlckBnbXguZGUACgkQ2QA8foSSdWXl4w//YKqYd+RFEqeL/dL3ghHJjct7Dzz2
+OWZ4ui8gKy6V/fSs7/o5K9e9TYlj02p75RdsP6WCtygmWpCndbJ6jypuBi3Nx9B3
+cp6fDljOnsOqEZTPk4YPz8yP8fRYqmOhtOlgkYhymOO1YgaT+OAbeofp/fu5+FQv
+aZ8zQTxlw7JbUN8uyoqp3PWtVp75n+07rUyiZwJeAWKvQln6ltFLW46k2hMhhuFC
+se3/2BArLvCA5a3lhL7OP8Uv9O51GeCIT1z2JK9Z3Wi8djfVlHGQi4xqTYCF7Ngb
+eEzm+EpuPPQI+EvSWN9BVpMVjtuAaFveNBsuKFH9/9FHQoDeMtZ2/Hd7/rJUegJ6
+v/4Mv8svpd9P4T2eXWEkTJ5WwSglQxAm3afAJ8g+D4x+AER8zBq6N9rjOfHbuCaM
++cA4Fe+CsLsfOgJtI+awhjtPQQu55ppAot1ZRsIfiHr+Xy9OGqVpLjtQxo/PBZKP
+nF1Rkt/8/4lZLgKl+9JWxica0lNFtX9M5J6VhGUEvULCgRdNNdhD6OkyHVXY77XE
+a8fnldppFCrtpzecqJrzq1YH4kPDLzjq0HEY2nwOu6ZrvX2Hlb9qoYIWaOBPyVsT
+xyo+LUYRN3806TqEcQ76skK9d85KqfgUag9KZMX67EOwQlwEirw9erPciSiyEaG4
+hN2IY5YknuWtDHU=
+=JZ6/
+-----END PGP SIGNATURE-----
