@@ -1,3 +1,13 @@
+ugtrain (0.4.1-0sp1) unstable; urgency=low
+
+  * update to 0.4.1
+    + Add a README symlink to README.md (for latest automake)
+    + ugsimfind: Fix a spelling issue (make Lintian happier)
+    + options: --version: Drop __DATE__ and __TIME__ (reproducible builds)
+  * remove add-a-readme-symlink.patch
+
+ -- Sebastian Parschauer <s.parschauer@gmx.de>  Fri, 04 Jan 2019 09:50:01 +0100
+
 ugtrain (0.4-0sp2) unstable; urgency=low
 
   * debian: add autoconf and automake depends for Ubuntu
